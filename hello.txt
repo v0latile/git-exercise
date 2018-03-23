@@ -1,0 +1,7 @@
+show running-configuration
+configure terminal
+interface fa0/0
+ip address 10.0.0.1 255.255.255.0
+no shutdown
+end
+write memory
